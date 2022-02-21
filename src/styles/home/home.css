@@ -1,0 +1,117 @@
+.home {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+    background-image: url("../../assets/imgs/Background.svg");
+    background-color: #202F3B;
+    position: fixed;
+    bottom: 0;
+    top: 0
+}
+
+.entrada-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 50px;
+    align-content: center;
+    margin: 100px;
+}
+
+.texto-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.texto-home p {
+    color: antiquewhite;
+    margin: 0;
+}
+
+.texto-home h1 {
+    color: antiquewhite;
+    margin: 0;
+}
+
+.input-email {
+    width: 450px;
+    border: solid 1px inactive;
+    border-radius: 12px 12px 12px 12px; 
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    justify-content: center;
+    max-height: 40px;
+    padding: 10px 20px 10px 20px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.input-senha {
+    width: 450px;
+    border: solid 1px inactive;
+    border-radius: 12px 12px 12px 12px; 
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    justify-content: center;
+    max-height: 40px;
+    padding: 10px 20px 10px 20px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.fundo-img {
+    width: 600px;
+    position: fixed;
+    right: 0px;
+    bottom: -50px;
+}
+
+.logo-img {
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.botao-home {
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(44,62,80,1) 100%);
+    border: solid;
+    height: 50px;
+    width: 250px;
+    border-radius: 12px 12px 12px 12px;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    font-family: 'AvertaCyrillic-Bold', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+button.botao-home {
+    border: none;
+    background-color: transparent;
+}
+
+.check-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'AvertaCyrillic-Bold', sans-serif;
+    font-size: 10px;
+    color: wheat;
+    margin-bottom: 20px;
+}
+
+.form-check-input {
+    size: 50px;
+}

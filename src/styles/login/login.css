@@ -1,0 +1,31 @@
+.tela-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url("../../assets/imgs/Background.svg");
+}
+
+.tela-login h1 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-family: 'AvertaCyrillic-Bold', sans-serif;
+    font-size: 70px;
+    color: white;
+}
+
+.tela-login p{
+    margin: 0;
+    font-family: 'AvertaCyrillic-Bold', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.tela-login a {
+    color: pink;
+}
+
+.tela-login img {
+    width: 488px;
+}

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'AvertaCyrillic-Bold';
+    src: url('/src/assets/fonts/AvertaCyrillic-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'AvertaCyrillic-SemiBold';
+    src: url('/src/assets/fonts/AvertaCyrillic-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'AvertaCyrillic-Regular';
+    src: url('/src/assets/fonts/AvertaCyrillic-Regular.ttf');
+    font-weight: normal;
+}
+
+
+.bold {
+    font-family: 'AvertaCyrillic-Bold', sans-serif;
+
+}
+
+.semi-bold {
+    font-family: 'AvertaCyrillic-SemiBold';
+
+}
+
+.regular {
+    font-family: 'AvertaCyrillic-Regular', sans-serif;
+}
